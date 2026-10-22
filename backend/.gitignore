@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+backend/.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+frontend/.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Model weights and datasets
+*.pt
+*.pth
+*.onnx
+*.engine
+data/
+datasets/
+runs/
+
+# Generated outputs
+outputs/
+logs/
+*.log
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
